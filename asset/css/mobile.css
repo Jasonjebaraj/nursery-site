@@ -1,0 +1,78 @@
+@media only screen and (max-width: 600px)
+{
+    /* topbar */
+    header{
+        display: none !important;
+    }
+
+    /* nav */
+  
+   
+
+    /* carousel */
+    .caro_img{
+        height: 200px;
+    }
+
+    /* about */
+    .about_bg {
+         margin-left: 0px;
+        width: 100%;
+    }
+    .about_heading {
+        left: 50px;
+    }
+    .about_txt2{
+        font-size: 25px;
+        margin-left: 35px;
+    }
+    .about_contant {
+        margin-top: 50px;
+        text-align: center;
+    }
+    .about_br{
+        display: none;
+    }
+    .about_num {
+        font-size: 20px;
+        padding: 25px 30px;
+    }
+
+    .nav{
+        display: grid !important;
+    }
+    .a2{
+        margin-top: 10px;
+      padding: 6px 100px !important;
+    }
+    .ni2:hover{
+        background-color: white !important;
+    }
+
+
+    /* our products */
+    .our_product_bg {
+        margin-left: 0px;
+        width: 100%;
+    }
+    .play_button_bg{
+        margin-left: 120px;
+        top: -115px;
+    }
+
+    /* best service */
+    .bs_subtitle{
+        font-size: 15px;
+    }
+    .backs {
+        padding-top: 200px;
+        padding-bottom: 0px;
+    }
+    
+    .servicess{
+        left: 140px;
+    }
+    .mini_sp{
+        display: none !important;
+    }
+}
