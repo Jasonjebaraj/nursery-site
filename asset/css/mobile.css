@@ -35,7 +35,10 @@
     }
     .about_num {
         font-size: 20px;
-        padding: 25px 30px;
+        /* padding: 25px 30px; */
+    }
+    .round_number p{
+        margin: 0% !important;
     }
 
     .nav{
@@ -74,5 +77,35 @@
     }
     .mini_sp{
         display: none !important;
+    }
+
+
+
+    /* card */
+    .crdd{
+        margin-bottom: 30px;
+    }
+    .crd_contant1{
+        top: 0px;
+    }
+    .crd_contant2{
+        top: 0px;
+    }
+    /*  */
+    .brands_list{
+        flex-wrap: wrap;
+    }
+    /* contact */
+    .contact_bg{
+        padding: 15px;
+    }
+    .contact_input{
+        width: auto;
+    }
+    /* footer */
+    .footer_bg{
+        padding: 0%;
+        position: relative;
+        z-index: 3;
     }
 }

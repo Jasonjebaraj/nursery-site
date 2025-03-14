@@ -96,9 +96,11 @@ nav{
 }
 .about_heading_green{
     color: #81BA00;
+    display: inline;
 }
 .about_heading{
     position: relative;
+    display: inline;
     z-index: 1;
     left: 200px;
     top: 70px;
@@ -107,6 +109,7 @@ nav{
     font-family: Playfair Display;
     font-weight: 600;
     font-size: 50px;
+    display: inline;
 }
 .about_contant{
     margin-top: 70px;
@@ -362,23 +365,25 @@ nav{
     
 }
 .crd_img1{
-    position: relative;
+    /* position: relative; */
     border-radius: 20px;
 }
 .crd_img2{
-    position: relative;
+    /* position: relative; */
     border-radius: 20px;
 }
 .crdd{
     width: 95%;
     border-radius: 20px !important;
+    position: relative;
 }
 
 
 .crd_contant1{
-    margin-left: 400px;
+    /* margin-left: 400px; */
     position: absolute;
     top: 70px;
+    right: 15px;
     text-align: justify;
 }
 
